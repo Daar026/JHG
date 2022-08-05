@@ -8,7 +8,7 @@
 
 
 @section('contenido')
-    <h2>Prueba de plantilla</h2>
+    <h2>Plantilla</h2>
 @endsection
 
 
