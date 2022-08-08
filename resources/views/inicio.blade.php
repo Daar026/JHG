@@ -8,6 +8,7 @@
 
 
 @section('contenido')
+
     <h2>Plantilla</h2>
 @endsection
 

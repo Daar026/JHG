@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .header-top{
+    background-color: #5598D2;
+    color: aliceblue;
+    max-height: 100%;
+    height: 26px;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+
+    padding-left: 20px;
+
+    
+}
+
+.header-top a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header-top a:hover{
+    color: aquamarine;
+}
