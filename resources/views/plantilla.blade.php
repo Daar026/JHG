@@ -44,8 +44,17 @@
             </div>
         </div>
 
-        <nav>
+        <nav class="row">
+            <div class="col logo-header">
+                <a href="#"><img src="{{url('img/logo.png')}}" alt=""></a>
+            </div>
 
+            <ul class="col">
+                <li> <a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Agende cita</a></li>
+                <li><a href="#">PQRS</a></li>
+            </ul>
         </nav>
     </header>
 
