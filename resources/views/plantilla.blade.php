@@ -30,7 +30,17 @@
         <div class="header-top">
             <span><i class="fa-solid fa-phone"></i><b> Teléfono de contacto: </b>(602)8942322 - 8942323 <b> - Ext</b>(11-12-13-14-16-17-18)</span>
             <span> - - - <i class="fa-solid fa-envelope"></i><b> Correo de contacto: </b><a href="mailto:darwinsantiago2003@hotmail.com">IE@iejosehgarcescali.edu.co</a></span>
+            <span> - - - <i class="fa-solid fa-square-share-nodes"></i><b> Redes sociales: </b><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></span>
         </div>
+
+        <nav class="navbar">
+            <a class="navbar-logo" href="#"><img src="{{url('img/logo.png')}}" alt=""></a>
+            <ul>
+                <li><a href="#"><b>Inicio</b></a></li>
+                <li><a href="#"><b>Sobre nosotros</b></a></li>
+                <li><a href="#"><b>PQRS</b></a></li>
+            </ul>
+        </nav>
     </header>
 
     @yield('contenido')
