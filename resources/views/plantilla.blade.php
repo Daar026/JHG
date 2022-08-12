@@ -40,8 +40,14 @@
                 <li><a href="#"><b>Sobre nosotros</b></a></li>
                 <li><a href="#"><b>PQRS</b></a></li>
             </ul>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
+        
     </header>
+
+
 
     @yield('contenido')
 

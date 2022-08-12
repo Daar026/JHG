@@ -54,3 +54,17 @@ nav li{
 
     display: inline;
 }
+
+.menu{
+    display: none;
+}
+
+@media all and (max-width: 480px){
+    .navbar{
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+    }
+}
