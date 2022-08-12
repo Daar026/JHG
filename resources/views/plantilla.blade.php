@@ -49,6 +49,7 @@
 
 
 
+
     @yield('contenido')
 
 
@@ -59,7 +60,7 @@
     @yield('scripts')
 
     @yield('footer')
-    <footer>PRUEBA PRUEBA PRUEBA</footer>
+    <footer></footer>
 
 </body>
 
