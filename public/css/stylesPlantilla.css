@@ -12,22 +12,26 @@ header .header-top{
     display: flex;
     align-items: center;
 
-    color: antiquewhite;
+    color: white;
 }
 
 header .header-top a{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
 }
 header .header-top a:hover{
-    color: aliceblue;
+    color: rgb(227, 236, 243);
 }
 
 /* NAVBAR */
 
 .navbar{
-
+    background-color: rgb(247, 247, 247)ite;
     display: flex;
+    margin: 1%;
+}
+.shadow-nav{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .navbar ul a{
     text-decoration: none;
@@ -64,6 +68,9 @@ body, html {
   height: 100%;
 }
 
+.slider{
+    padding: 30px;
+}
 
 
 
@@ -71,4 +78,19 @@ footer{
     background-color: #087de2;
     max-width: 100%;
     height: 100px;
+}
+
+
+
+
+/* Scroll personalizado */
+
+body::-webkit-scrollbar{
+    width: 8px;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #087de2;
+    border-radius: 100px;
 }

@@ -37,7 +37,7 @@
                     Facebook</a></span>
         </div>
 
-        <nav class="navbar">
+        <nav class="navbar shadow-nav">
             <a class="navbar-logo" href="#"><img src="{{url('img/logo.png')}}" alt=""></a>
             <ul>
                 <li><a href="#"><b>Inicio</b></a></li>
