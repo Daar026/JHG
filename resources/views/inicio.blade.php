@@ -19,7 +19,7 @@
                 <img src="{{url('img/slider/kevin2.jpeg')}}" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="{{url('img/slider/kevin1.jpeg')}}" class="d-block w-100">
+                <img src="{{url('img/logo.png')}}" class="d-block w-100">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
